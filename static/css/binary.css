@@ -1,0 +1,42 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div.btn {
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+div.bg {
+    background-color: #1a123b;
+    padding: 20px 20px 0 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    outline: none;
+    border-width: 5px;
+    border-color: #000;
+    border-style: solid;
+}
+
+button.one {
+    background-color: #fff;
+}
+
+button.zero {
+    background-color: #000;
+}

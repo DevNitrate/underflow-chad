@@ -1,0 +1,35 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 200px;
+    color: white;
+}
+
+button {
+    border: none;
+    background-color: #0fc960;
+    color: #fff;
+    border-radius: 12px;
+    margin-top: 80px;
+    width: 300px;
+    height: 100px;
+    font-size: 35px;
+    font-weight: bold;
+    transition: all 0.15s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}

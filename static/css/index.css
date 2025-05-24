@@ -64,3 +64,56 @@ button.real {
     height: 10px;
     background-color: #3b2982;
 }
+
+p {
+    color: #0d091e;
+}
+
+@media screen and (max-height: 675px) {
+    h1 {
+        margin-top: 15px;
+    }
+    
+    h2 {
+        margin-top: 20px;        
+    }
+    
+    ul {
+        margin-top: 20px;
+    }
+    
+    button.start {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px), screen and (max-height: 610px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    li {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    button.start {
+        width: 300px;
+        height: 78px;
+        font-size: 40px;
+    }
+
+    ul {
+        margin-top: 20px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    p {
+        color: #fff;
+    }
+}
